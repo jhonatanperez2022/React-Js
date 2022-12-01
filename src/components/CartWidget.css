@@ -1,0 +1,15 @@
+.navbar-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.navbar-cart i{
+    cursor: pointer;
+    font-size: 30px;
+}
+.navbar-cart p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
