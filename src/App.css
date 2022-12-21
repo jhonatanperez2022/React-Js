@@ -28,18 +28,29 @@
   color: #61dafb;
 }
 
+/*Error 404*/
+.error404 {
+  margin: 15vh auto 10vh;
+  color: rgb(79, 231, 241);
+  font-size: 5vw;
+  letter-spacing: 3px;
+}
 
 /*Item list container*/
 
 .div_ilc{
-  width: 30%;
-  margin: 3vw auto;
-  padding: 20px;
+  width: 70%;
+  height: 40vh;
+  margin: 20vh auto;
+  padding: 50px;
   background-color: #2f2f30;
-  border-radius: 25px 0px;
+  border-radius: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .div_ilc h1{
-  font-size: 2vw;
+  font-size: 5vw;
   color: rgb(0, 187, 187);
   font-weight: bolder;
 }
@@ -47,7 +58,130 @@
   background-color: #242424;
 }
 .div_ilc:hover h1{
-  color: aqua;
+  color: rgb(79, 231, 241);
+}
+/*seccion categorias*/
+
+.seccionCat {
+  width: 65%;
+  margin: 3vh auto;
+}
+.seccionCat h1 {
+  color: rgb(79, 231, 241);
+  font-weight: bolder;
+  font-size: 50px;
+}
+.seccionCat h2 {
+  color: rgb(79, 231, 241);
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+/*los juegos*/
+.contenedorJuegos h3{
+  width: 30%;
+  margin: 4vh auto;
+  background-color: rgb(79, 231, 241);
+  border-radius: 10px 0;
+}
+.divJuego{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+  height: 20vh;
+  margin: 10px auto;
+  background-color: rgb(66, 66, 66);
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px black;
+}
+.divJuego:hover {
+  background-color: rgb(60, 60, 60);
+  box-shadow: 0px 5px 15px black;
+}
+
+.divJuego h4{
+  font-size: 1.2vw;
+  margin: 0;
+  color: rgb(79, 231, 241);
+}
+.divJuego img{
+  width: 100%;
+  height: 9vh;
+}
+.divJuego a{
+  background-color: rgb(30, 30, 30);
+  color: rgb(79, 231, 241);
+  padding: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 10px 0;
+  font-weight: bolder;
+  width: 60%;
+}
+.divJuego a:hover{
+  background-color: rgb(79, 231, 241);
+  color: black;
+  transition: .5s;
+}
+
+
+
+/*seccion plataformas*/
+
+.seccionPlat {
+  width: 65%;
+  margin: 3vh auto;
+}
+.seccionPlat h1 {
+  color: rgb(79, 231, 241);
+  font-weight: bolder;
+  font-size: 50px;
+}
+.seccionPlat h2 {
+  color: rgb(79, 231, 241);
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+
+/*seccion contactos*/
+
+.seccionContacto {
+  width: 65%;
+  margin: 3vh auto;
+}
+.seccionContacto h1 {
+  color: rgb(79, 231, 241);
+  font-weight: bolder;
+  font-size: 50px;
+}
+.seccionContacto h2 {
+  color: rgb(79, 231, 241);
+  font-weight: bolder;
+  font-size: 30px;
+}
+/*Lo de contacto*/
+.divContacto{
+  width: 70%;
+  margin: 5vh auto;
+}
+.divContacto p{
+  font-size: 2vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  color: rgb(79, 231, 241);
+}
+.contactoRedes {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.contactoRedes img{
+  width: 5vw;
+  cursor: pointer;
 }
 
 
