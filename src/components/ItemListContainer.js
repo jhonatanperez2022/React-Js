@@ -1,16 +1,22 @@
 import Plataformas from './Plataformas';
 import Categorias from './Categorias';
+import Cards from './Cards';
+import { Link } from 'react-router-dom';
 
-function ItemListContainer ({greeting}) {
+function ItemListContainer () {
     return <div>
-        {/* <div className='div_ilc'>
-            <h1>{greeting}</h1>
-        </div> */}
+
+        <div className="divEnlacesIlc">
+        <Link to="/plataformas" className="buttons-navbar">
+            Plataformas
+        </Link>
+        <Link to="/categorias" className="buttons-navbar">
+            Categorias
+        </Link>
+        </div>
         
-        <Plataformas/>
-        <Categorias/>
-        
-        
+        <Cards/>
+
     </div>
 }
 
