@@ -1,0 +1,48 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "name": "Fifa 22",
+            "nickname": "Fifa 22",
+            "description": "El videojuego de futbol mas popular",
+            "imagen": "https://i.blogs.es/197bee/fifa-22--game-pass-descarga-gratis-en-xbox-one-xbox-series-x-s-y-pc/1366_2000.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Gta 5",
+            "nickname": "Gta 5",
+            "description": "Videojuego de mundo abierto, con accion y aventura",
+            "imagen": "http://gamespot.com/a/uploads/original/1179/11799911/2393530-gtavlohan.jpg"
+        },
+        {
+            "id": 3,
+            "name": "God Of War",
+            "nickname": "GOW",
+            "description": "Videojuego de aventuras",
+            "imagen": "https://www.guardadorapido.com/wp-content/uploads/2020/07/God-of-War-noticia.jpg"
+        }
+    ],
+    "plataformas": [
+        {
+            "id": 4,
+            "name": "The witcher 3",
+            "nickname": "The witcher 3",
+            "description": "Videojuego con grandes aventuras",
+            "imagen": "https://i.ytimg.com/vi/odiVAXFaUig/maxresdefault.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Call Of Duty: Black Ops 4",
+            "nickname": "COD BO4",
+            "description": "Videojuego fps con mucha accion",
+            "imagen": "https://www.xtrafondos.com/descargar.php?id=3151&resolucion=1280x720"
+        },
+        {
+            "id": 6,
+            "name": "UFC 4",
+            "nickname": "UFC 4",
+            "description": "El videojuego de artes marciales mixtas mas popular",
+            "imagen": "https://www.gamesvillage.it/wp-content/uploads/2020/08/UFC-4-1280x720-1.jpg"
+        }
+    ]
+}

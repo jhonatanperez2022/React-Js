@@ -1,6 +1,6 @@
 
 
-const data = {"categorias": [
+const categorias = [
     
     {"deportes": {
         id: 1,
@@ -26,9 +26,10 @@ const data = {"categorias": [
         description: "Videojuego de aventuras",
         imagen: require('./assets/img/godofwar.jpg')
     }}
-],
-"plataformas": [
+]
 
+
+const plataformas= [
     {"pc": {
         id: 4,
         name: "The witcher 3",
@@ -51,4 +52,3 @@ const data = {"categorias": [
         imagen: require('./assets/img/ufc4.jpg')
     }}
 ]
-}

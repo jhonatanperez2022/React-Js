@@ -8,7 +8,7 @@ const Plataformas = () => {
   return (
     <div className='seccionPlat'>
       <h1>Plataformas</h1>
-        <h2>Su plataforma favorita!</h2>
+        <h2>¡ Su plataforma favorita !</h2>
         <div className='contenedorJuegos'>
           <h3>PC</h3>
           <div className='divJuego'>

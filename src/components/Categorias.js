@@ -6,14 +6,19 @@ import gow from '../assets/img/godofwar.jpg'
 
 
 
+
 const Categorias = function () {
   
+  
+
   return (
     <div className='seccionCat'>
       <h1>Categorias</h1>
-        <h2>De la categoria que guste!</h2>
+        <h2>¡ De la categoria que guste !</h2>
         <div className='contenedorJuegos'>
           <h3>Deporte</h3>
+          
+           
           <div className='divJuego'>
             <img src={fifa22} />
             <h4>Fifa 22</h4>
@@ -21,23 +26,23 @@ const Categorias = function () {
           </div>
           
           
-          
           <h3>Accion</h3>
+          
+
           <div className='divJuego'>
             <img src={gta5} />
-            <h4>Gta 5</h4>
+            <h4>GTA 5</h4>
             <a>COMPRAR</a>
           </div>
-
-          
 
           <h3>Aventuras</h3>
+          
+
           <div className='divJuego'>
             <img src={gow} />
-            <h4>God of war</h4>
+            <h4>GOW</h4>
             <a>COMPRAR</a>
           </div>
-
           
 
         </div>

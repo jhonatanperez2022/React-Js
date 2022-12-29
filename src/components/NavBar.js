@@ -9,12 +9,6 @@ const NavBar = () => {
         <Link to="/" className="navbarH2">
             TRICO JUEGOS
         </Link>
-        <Link to="/categorias" className="buttons-navbar">
-            Categorias
-        </Link>
-        <Link to="/plataformas" className="buttons-navbar">
-            Plataformas
-        </Link>
         <Link to="/contactos" className="buttons-navbar">
             Contactos
         </Link>

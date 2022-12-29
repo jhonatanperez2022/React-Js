@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import Categorias from './components/Categorias';
 import Plataformas from './components/Plataformas';
 import Contactos from './components/Contactos';
+import data from './Data'
 
 
 
@@ -23,15 +24,10 @@ function App() {
       </nav>
       
       <Routes>
-          <Route path="/" element={<ItemListContainer greeting={'¡ Bienvenidos !'}/>} />
-      </Routes>
-      
-      <Routes>
-          <Route path="/categorias" element={<Categorias />} />
-          <Route path="/plataformas" element={<Plataformas />} />
+          <Route path="/" element={<ItemListContainer/>} />
           <Route path="/contactos" element={<Contactos/>} />
           <Route path="*" element={<h1 className='error404'>404 Not Found</h1>} />
-        </Routes>
+      </Routes>
     </div>
     
   );

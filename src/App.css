@@ -70,6 +70,9 @@
   color: rgb(79, 231, 241);
   font-weight: bolder;
   font-size: 50px;
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 3px;
 }
 .seccionCat h2 {
   color: rgb(79, 231, 241);
@@ -138,6 +141,9 @@
   color: rgb(79, 231, 241);
   font-weight: bolder;
   font-size: 50px;
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 3px;
 }
 .seccionPlat h2 {
   color: rgb(79, 231, 241);
@@ -156,6 +162,9 @@
   color: rgb(79, 231, 241);
   font-weight: bolder;
   font-size: 50px;
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 3px;
 }
 .seccionContacto h2 {
   color: rgb(79, 231, 241);
