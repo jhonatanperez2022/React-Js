@@ -1,5 +1,4 @@
-import Plataformas from './Plataformas';
-import Categorias from './Categorias';
+
 import Cards from './Cards';
 import { Link } from 'react-router-dom';
 

@@ -9,7 +9,7 @@ const Item = ({ juego }) => {
             <h4>{juego.nickname}</h4>
             <p>{juego.description}</p>
             <Link to={`comprar/${juego.id}`}>
-            <a>COMPRAR</a>
+              COMPRAR
             </Link>
     </div>
   )
