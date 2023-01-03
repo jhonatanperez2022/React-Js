@@ -13,8 +13,9 @@ import Category from './components/Category';
 
 
 function App() {
-  
-  const { plataformas, categorias } = producto;
+
+  const juegosPlat = producto.filter((juego)=> juego.tipo === "plataformas")
+  const juegosCat = producto.filter((juego)=> juego.tipo === "categorias")
 
   return (
     
@@ -24,11 +25,13 @@ function App() {
       </nav>
       
       <Routes>
-          <Route path="/" element={<ItemListContainer/>} />
+          <Route path="/" element={<ItemListContainer producto={producto}/>} />
           <Route path="/contactos" element={<Contactos/>} />
-          <Route path="/comprar/:id" element={<ItemDetailContainer producto={producto} /> } />
-          <Route path="/plataformas" element={<Category tipo={plataformas} titulo={<h1 className="elTitulo"> Plataformas</h1>} />} />
-          <Route path="/categorias" element={<Category tipo={categorias} titulo={<h1 className="elTitulo"> Categorias</h1>} />} />
+          <Route path="/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
+          <Route path="/plataformas" element={<Category tipo={juegosPlat} titulo={<h1 className="elTitulo"> Plataformas</h1>} />} />
+          <Route path="/categorias" element={<Category tipo={juegosCat} titulo={<h1 className="elTitulo"> Categorias</h1>} />} />
+          <Route path="/categorias/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
+          <Route path="/plataformas/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
           <Route path="*" element={<h1 className='error404'>404 Not Found</h1>} />
       </Routes>
     </div>

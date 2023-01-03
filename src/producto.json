@@ -1,48 +1,68 @@
-{
-    "categorias": [
+    [
         {
             "id": 1,
             "name": "Fifa 22",
             "nickname": "Fifa 22",
+            "urlName": "Fifa22",
             "description": "Deportes",
-            "imagen": "https://i.blogs.es/197bee/fifa-22--game-pass-descarga-gratis-en-xbox-one-xbox-series-x-s-y-pc/1366_2000.jpeg"
+            "tematica": "Esta edición acerca el juego aún más a la realidad gracias a mejoras significativas en la jugabilidad y una nueva temporada de novedades en todos los modos. Con Kylian Mbappé como figura destacada, en esta entrega los jugadores podrán hacer realidad sus sueños en el modo Carrera y llegar más lejos que nunca.",
+            "imagen": "https://i.blogs.es/197bee/fifa-22--game-pass-descarga-gratis-en-xbox-one-xbox-series-x-s-y-pc/1366_2000.jpeg",
+            "precio": "40 USD",
+            "tipo": "categorias"
         },
         {
             "id": 2,
             "name": "Gta 5",
             "nickname": "Gta 5",
+            "urlName": "Gta5",
             "description": "Accion",
-            "imagen": "http://gamespot.com/a/uploads/original/1179/11799911/2393530-gtavlohan.jpg"
+            "tematica": "Esta entrega de la saga combina historia y jugabilidad de una forma totalmente nueva y permite a los jugadores asumir un rol dentro del juego como estafador callejero, ex convicto o maníaco para construir su propio imperio criminal en una ciudad en decadencia.",
+            "imagen": "http://gamespot.com/a/uploads/original/1179/11799911/2393530-gtavlohan.jpg",
+            "precio": "21 USD",
+            "tipo": "categorias"
         },
         {
             "id": 3,
             "name": "God Of War",
             "nickname": "GOW",
+            "urlName": "GodOfWar",
             "description": "Aventuras",
-            "imagen": "https://www.guardadorapido.com/wp-content/uploads/2020/07/God-of-War-noticia.jpg"
-        }
-    ],
-    "plataformas": [
+            "tematica": "En esta secuela, Kratos y Atreus iniciarán un viaje mítico en busca de respuestasantes de que llegue Ragnarök. Padre e hijo deberán arriesgarlo todo en cada uno de los Nueve Reinos.A lo largo de impresionantes paisajes mitológicos, se enfrentarán a temibles enemigos, desde dioses nórdicos hasta bestias salvajes.",
+            "imagen": "https://www.guardadorapido.com/wp-content/uploads/2020/07/God-of-War-noticia.jpg",
+            "precio": "16 USD",
+            "tipo": "categorias"
+        },
         {
             "id": 4,
             "name": "The witcher 3",
             "nickname": "The witcher 3",
+            "urlName": "TheWitcher3",
             "description": "PC",
-            "imagen": "https://i.ytimg.com/vi/odiVAXFaUig/maxresdefault.jpg"
+            "tematica": "Esta aventura se ambienta en un universo de fantasía impresionante, lleno de opciones para decidir y enfrentar las consecuencias. Los jugadores darán vida a Geralt de Rivia, un cazador de monstruos que deberá recorrer largas distancias y explorar lugares increíbles para lograr una importante misión.",
+            "imagen": "https://i.ytimg.com/vi/odiVAXFaUig/maxresdefault.jpg",
+            "precio": "26 USD",
+            "tipo": "plataformas"
         },
         {
             "id": 5,
             "name": "Call Of Duty: Black Ops 4",
             "nickname": "COD BO4",
+            "urlName": "COD:BO4",
             "description": "PlayStation",
-            "imagen": "https://www.xtrafondos.com/descargar.php?id=3151&resolucion=1280x720"
+            "tematica": "En esta aventura bélica, los mapas brindan una variedad impresionante a medida que los jugadores se enfrentan en escenarios únicos con una mecánica de armas que da a cada una la sensación de máxima autenticidad y un manejo inigualable.",
+            "imagen": "https://www.xtrafondos.com/descargar.php?id=3151&resolucion=1280x720",
+            "precio": "12 USD",
+            "tipo": "plataformas"
         },
         {
             "id": 6,
             "name": "UFC 4",
             "nickname": "UFC 4",
+            "urlName": "Ufc4",
             "description": "XBOX",
-            "imagen": "https://www.gamesvillage.it/wp-content/uploads/2020/08/UFC-4-1280x720-1.jpg"
+            "tematica": "Con Tyson Fury y Anthony Joshua como figuras destacadas, esta nueva entrega acerca la posibilidad de crear estilos de pelea únicos. Los jugadores podrán perfeccionar sus habilidades de lucha tanto en entornos callejeros como míticos mientras dejan atrás su lado amateur para convertirse en estrellas de la Ultimate Fighting Championship.",
+            "imagen": "https://www.gamesvillage.it/wp-content/uploads/2020/08/UFC-4-1280x720-1.jpg",
+            "precio": "9 USD",
+            "tipo": "plataformas"
         }
     ]
-}

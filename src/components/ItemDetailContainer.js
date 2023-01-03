@@ -9,23 +9,20 @@ import axios from 'axios';
 const ItemDetailContainer = ({ producto }) => { 
 
 
-  const { id } = useParams();
-  const { juegos, setJuegos } = useState([])
-
-  const idNumber = parseInt( id );
+  const { urlName } = useParams();
+  const [ juegos, setJuegos ] = useState({})
 
   
 
-  const getGameById = () => {
-    const juegoObtenido = producto.find((juego) => juego.id === idNumber)
+  const getGameByName = () => {
+    const juegoObtenido = producto.find((juego) => juego.urlName === urlName)
 
   return juegoObtenido
   }
 
   useEffect (() => {
-    setJuegos(getGameById())
-  }, [id])
-
+    setJuegos(getGameByName())
+  }, [urlName])
 
   return (
     <>

@@ -6,7 +6,7 @@ import Card from './Card';
 
 const Cards = () => {
 
-    const { categorias, plataformas } = producto;
+    // const { categorias, plataformas } = producto;
 
     return (
         //plataformas
@@ -15,18 +15,18 @@ const Cards = () => {
         <div className='seccionPlat'>
         {/* <h1>Plataformas</h1>
         <h2>¡ Su plataforma favorita !</h2> */}
-        <div className='contenedorJuegos'>
-    <Card tipo={plataformas} />    
-        </div>
+            <div className='contenedorJuegos'>
+                <Card tipo={producto} />    
+            </div>
         </div>
         
-        <div className='seccionCat'>
-        {/* <h1>Categorias</h1>
-        <h2>¡ De la categoria que guste !</h2> */}
+        {/* <div className='seccionCat'>
+        <h1>Categorias</h1>
+        <h2>¡ De la categoria que guste !</h2>
         <div className='contenedorJuegos'>
             <Card tipo={categorias} />
         </div>
-        </div>
+        </div> */}
     </div>
     
     

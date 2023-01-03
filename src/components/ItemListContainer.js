@@ -2,7 +2,11 @@
 import Cards from './Cards';
 import { Link } from 'react-router-dom';
 
-function ItemListContainer () {
+function ItemListContainer ({ producto }) {
+
+    // const juegosPlat = producto.filter((juego)=> juego.tipo === "plataformas")
+    // const juegosCat = producto.filter((juego)=> juego.tipo === "categorias")
+
     return <div>
 
         <div className="divEnlacesIlc">

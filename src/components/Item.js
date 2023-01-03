@@ -8,7 +8,7 @@ const Item = ({ juego }) => {
             <img src={juego.imagen} />
             <h4>{juego.nickname}</h4>
             <p>{juego.description}</p>
-            <Link to={`comprar/${juego.id}`}>
+            <Link to={`comprar/${juego.urlName}`}>
               COMPRAR
             </Link>
     </div>

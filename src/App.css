@@ -80,38 +80,45 @@
   font-size: 30px;
 }
 
-/*los juegos*/
-.contenedorJuegos h3{
+/* .contenedorJuegos h3{
   width: 30%;
   margin: 4vh auto;
   background-color: rgb(79, 231, 241);
   border-radius: 10px 0;
+} */
+
+/*los juegos*/
+.contenedorJuegos {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  
 }
 .divJuego{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 15%;
-  height: 20vh;
+  width: 50%;
+  height: 23vh;
   margin: 30px auto;
   background-color: rgb(66, 66, 66);
   border-radius: 15px;
   box-shadow: 0px 5px 10px black;
 }
+
 .divJuego:hover {
   background-color: rgb(60, 60, 60);
   box-shadow: 0px 5px 15px black;
 }
 
+.divJuego img{
+  width: 100%;
+  height: 9vh;
+}
 .divJuego h4{
   font-size: 1.2vw;
   margin: 0;
   color: rgb(79, 231, 241);
-}
-.divJuego img{
-  width: 100%;
-  height: 9vh;
 }
 .divJuego p {
   font-weight: 500;
@@ -216,6 +223,141 @@
   letter-spacing: 3px;
 }
 
+
+/*Juego Detallado*/
+
+.divJuego-base{
+  width: 70%;
+  margin: 30px auto 0px;
+  border-radius: 20px 20px 0 0;
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.divJuego-detallado{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 50vh;
+  margin: 30px auto;
+  background-color: rgb(66, 66, 66);
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px black;
+}
+
+.divJuego-detallado:hover {
+  background-color: rgb(60, 60, 60);
+  box-shadow: 0px 5px 15px black;
+}
+.divJuego-detallado img{
+  width: 100%;
+  height: 20vh;
+}
+
+.divJuego-detallado h4{
+  font-size: 3vw;
+  margin: 0;
+  font-weight: bolder;
+  color: rgb(79, 231, 241);
+}
+.divJuego-detallado p {
+  font-weight: bolder;
+  margin: 7px auto;
+  font-size: 2vw;
+  color: rgb(64, 192, 201);
+}
+.divJuego-detallado a{
+  background-color: rgb(30, 30, 30);
+  color: rgb(79, 231, 241);
+  padding: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 10px 0;
+  font-weight: bolder;
+  width: 60%;
+  text-decoration: none;
+}
+.divJuego-detallado a:hover{
+  background-color: rgb(79, 231, 241);
+  color: black;
+  transition: .5s;
+}
+
+.juegoTematica{
+  width: 50%;
+  margin: 30px auto 15px;
+}
+.juegoTematica p{
+  width: 12vw;
+  margin: 10px auto;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 2vw;
+  color: rgb(64, 192, 201);
+  background-color: rgb(30, 30, 30);
+}
+.juegoTematica h5 {
+  font-weight: bold;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  color: rgb(60, 218, 230);
+}
+
+
+/*Tipo de juegos (categorias o plataformas)*/
+
+.contenedorTipoJuegos{
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+
+}
+
+.divJuego-tipo{
+  width: 15%;
+  margin: 5vw auto;
+  border-radius: 15px;
+  background-color: rgb(66, 66, 66);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 5px 10px black;
+}
+.divJuego-tipo:hover{
+  background-color: rgb(60, 60, 60);
+  box-shadow: 0px 5px 15px black;
+}
+.divJuego-tipo img{
+  width: 100%;
+}
+.divJuego-tipo a{
+  background-color: rgb(30, 30, 30);
+  color: rgb(79, 231, 241);
+  padding: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 10px 0;
+  font-weight: bolder;
+  width: 60%;
+  text-decoration: none;
+}
+
+.divJuego-tipo h4{
+  font-size: 1.2vw;
+  margin: 0;
+  color: rgb(79, 231, 241);
+}
+.divJuego-tipo p {
+  font-weight: 500;
+  margin: 7px auto;
+  color: rgb(64, 192, 201);
+}
 
 @keyframes App-logo-spin {
   from {
