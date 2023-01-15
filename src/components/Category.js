@@ -3,8 +3,6 @@ import Items from './Items'
 
 const Category = ({ tipo, titulo }) => {
 
- 
-
   return(
     <>
       <h1>{titulo}</h1>

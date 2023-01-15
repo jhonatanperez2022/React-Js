@@ -1,13 +1,7 @@
 import React from 'react'
-import { useLocation, useParams } from "react-router-dom";
 
 
 const ItemDetail = ({ producto }) => {
-
-  // const { id } = useParams();
-  // const type = useLocation().pathname.split("/")[1];
-  // const items = producto[type];
-  // const item = items.find((item) => item.id === id);
   
   return (
     <>

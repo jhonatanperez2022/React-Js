@@ -2,10 +2,7 @@
 import Cards from './Cards';
 import { Link } from 'react-router-dom';
 
-function ItemListContainer ({ producto }) {
-
-    // const juegosPlat = producto.filter((juego)=> juego.tipo === "plataformas")
-    // const juegosCat = producto.filter((juego)=> juego.tipo === "categorias")
+function ItemListContainer () {
 
     return <div>
 
@@ -19,7 +16,6 @@ function ItemListContainer ({ producto }) {
         </div>
         
         <Cards/>
-
     </div>
 }
 

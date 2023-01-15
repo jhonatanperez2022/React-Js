@@ -12,6 +12,17 @@
         },
         {
             "id": 2,
+            "name": "NBA 2k23",
+            "nickname": "NBA 2k23",
+            "urlName": "NBA2k23",
+            "description": "Deportes",
+            "tematica": "NBA 2K23 permitirá a los jugadores desarrollar todo su potencial en el mundo del básquet. Podrán combinar a los All-Stars de hoy con leyendas atemporales en MyTEAM o llevar a la NBA en una nueva dirección con MyLEAGUE. Además, deberán dominar la cancha en cada temporada de la NBA o la WNBA.",
+            "imagen": "https://wp.clutchpoints.com/wp-content/uploads/2022/08/NBA-2K23-Gameplay-Enhancements-What_s-New-in-NBA-1.jpg",
+            "precio": "38 USD",
+            "tipo": "categorias"
+        },
+        {
+            "id": 3,
             "name": "Gta 5",
             "nickname": "Gta 5",
             "urlName": "Gta5",
@@ -22,7 +33,29 @@
             "tipo": "categorias"
         },
         {
-            "id": 3,
+            "id": 4,
+            "name": "Spiderman",
+            "nickname": "Spiderman",
+            "urlName": "Spiderman",
+            "description": "Accion",
+            "tematica": "Con un impactante realismo en los ambientes y un experimentado Peter Parker en la lucha contra el crimen, el juego brinda un enfoque completamente nuevo de la historia del hombre araña. Los jugadores podrán disfrutar de la mejor experiencia en combate de improvisación, acrobacias dinámicas e interacciones con el ambiente.",
+            "imagen": "https://p4.wallpaperbetter.com/wallpaper/779/848/1009/spider-man-spider-man-ps4-video-game-wallpaper-preview.jpg",
+            "precio": "6 USD",
+            "tipo": "categorias"
+        },
+        {
+            "id": 5,
+            "name": "Shadow of the Colossus",
+            "nickname": "SOTC",
+            "urlName": "ShadowOfTheColossus",
+            "description": "Aventuras",
+            "tematica": "Este remake acerca mundos y criaturas inolvidables con desafíos que ponen a prueba el ingenio, determinación y habilidad. Los jugadores se ponen en la piel de Wander, un joven que explora tierras antiguas para encontrar a los 16 colosos de piedra repartidos por el mundo.",
+            "imagen": "https://images.hdqwalls.com/download/shadow-of-the-colossus-4k-s8-1280x720.jpg",
+            "precio": "6 USD",
+            "tipo": "categorias"
+        },
+        {
+            "id": 6,
             "name": "God Of War",
             "nickname": "GOW",
             "urlName": "GodOfWar",
@@ -32,8 +65,16 @@
             "precio": "16 USD",
             "tipo": "categorias"
         },
+
+
+
+
+
+
+
+
         {
-            "id": 4,
+            "id": 7,
             "name": "The witcher 3",
             "nickname": "The witcher 3",
             "urlName": "TheWitcher3",
@@ -44,7 +85,18 @@
             "tipo": "plataformas"
         },
         {
-            "id": 5,
+            "id": 8,
+            "name": "Red Dead Redemption 2",
+            "nickname": "RDR 2",
+            "urlName": "RedDeadRedemption2",
+            "description": "PC",
+            "tematica": "Un grupo de vaqueros fuera de la ley recorren un impresionante y salvaje oeste robando y sobreviviendo como cazarrecompensas. Con un nivel de realismo sin precedentes e historias individuales apasionantes, los jugadores deberán lograr que esta pandilla no se divida antes de que termine la aventura.",
+            "imagen": "https://www.trueachievements.com/customimages/080449.jpg",
+            "precio": "6 USD",
+            "tipo": "plataformas"
+        },
+        {
+            "id": 9,
             "name": "Call Of Duty: Black Ops 4",
             "nickname": "COD BO4",
             "urlName": "COD:BO4",
@@ -55,7 +107,18 @@
             "tipo": "plataformas"
         },
         {
-            "id": 6,
+            "id": 10,
+            "name": "The Last Of Us 2",
+            "nickname": "TLOU 2",
+            "urlName": "TheLastOfUs2",
+            "description": "PlayStation",
+            "tematica": "Esta entrega se desarrolla cinco años después de la catástrofe, cuando Ellie y Joel viven en una tranquila comunidad de sobrevivientes de Wynoming. Los jugadores serán testigos de un violento evento que interrumpe esa paz y experimentarán un viaje en busca de justicia y venganza.",
+            "imagen": "https://www.guardadorapido.com/wp-content/uploads/2020/06/Portada_Thelastofus2.jpg",
+            "precio": "25 USD",
+            "tipo": "plataformas"
+        },
+        {
+            "id": 11,
             "name": "UFC 4",
             "nickname": "UFC 4",
             "urlName": "Ufc4",
@@ -63,6 +126,17 @@
             "tematica": "Con Tyson Fury y Anthony Joshua como figuras destacadas, esta nueva entrega acerca la posibilidad de crear estilos de pelea únicos. Los jugadores podrán perfeccionar sus habilidades de lucha tanto en entornos callejeros como míticos mientras dejan atrás su lado amateur para convertirse en estrellas de la Ultimate Fighting Championship.",
             "imagen": "https://www.gamesvillage.it/wp-content/uploads/2020/08/UFC-4-1280x720-1.jpg",
             "precio": "9 USD",
+            "tipo": "plataformas"
+        },
+        {
+            "id": 12,
+            "name": "Fallout 76",
+            "nickname": "Fallout 76",
+            "urlName": "Fallout76",
+            "description": "XBOX",
+            "tematica": "Con una superficie 4 veces mayor al de Fallout 4, esta entrega profundiza en la historia del misterioso Refugio 76. Los jugadores tendrán la oportunidad de liderar alianzas y luchar contra peligrosos rivales para descubrir la verdad que esconden las montañas.",
+            "imagen": "https://wallpaper.dog/large/5455005.jpg",
+            "precio": "23 USD",
             "tipo": "plataformas"
         }
     ]

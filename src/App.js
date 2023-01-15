@@ -5,7 +5,6 @@ import ItemListContainer from './components/ItemListContainer';
 import { Route, Routes } from 'react-router-dom'
 import Contactos from './components/Contactos';
 import producto from './producto.json';
-
 import ItemDetailContainer from './components/ItemDetailContainer';
 import Category from './components/Category';
 
@@ -25,7 +24,7 @@ function App() {
       </nav>
       
       <Routes>
-          <Route path="/" element={<ItemListContainer producto={producto}/>} />
+          <Route path="/" element={<ItemListContainer/>} />
           <Route path="/contactos" element={<Contactos/>} />
           <Route path="/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
           <Route path="/plataformas" element={<Category tipo={juegosPlat} titulo={<h1 className="elTitulo"> Plataformas</h1>} />} />
