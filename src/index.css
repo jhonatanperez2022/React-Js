@@ -5,10 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(50,50,50);
+  background-color: rgb(50,50,50) !important;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbarH2, .buttons-navbar {
+  text-decoration: none;
+}
+
+.navbarh2, .buttons-navbar {
+  text-decoration: none !important;
 }

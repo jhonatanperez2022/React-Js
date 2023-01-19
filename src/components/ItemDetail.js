@@ -1,8 +1,25 @@
 import React from 'react'
+import { UseCartContext } from './context/CartContext';
+import productos from "../producto.json"
 
 
-const ItemDetail = ({ producto }) => {
+const ItemDetail = ({producto}) => {
+  const { count, setCount, cart, setCart } = UseCartContext()
   
+
+  const addProduct = (prodId) => {
+    setCount(count + 1);
+    const findGame = productos.find(juego => juego.id === prodId)
+    setCart ([...cart, findGame])
+    const existInCart = cart.find(juego => juego.id === findGame.id);
+    existInCart
+    ? setCart([...cart, existInCart.cantidad++])
+    : setCart ([...cart, findGame])
+    console.log(cart)
+};
+
+  
+
   return (
     <>
     <div className='divJuego-base'>
@@ -10,10 +27,10 @@ const ItemDetail = ({ producto }) => {
             <img src={producto.imagen} />
             <h4>{producto.nickname}</h4>
             <p>{producto.description}</p>
-            <a>COMPRAR</a>
+            <a onClick={() => addProduct(producto.id)}>COMPRAR</a>
     </div>
     <div className='juegoTematica'>
-      <p>{producto.precio}</p>
+      <p>{producto.precio} USD</p>
       <h5>{producto.tematica}</h5>
     </div>
     </div>

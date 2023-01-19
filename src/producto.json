@@ -4,10 +4,11 @@
             "name": "Fifa 22",
             "nickname": "Fifa 22",
             "urlName": "Fifa22",
+            "cantidad": 1,
             "description": "Deportes",
             "tematica": "Esta edición acerca el juego aún más a la realidad gracias a mejoras significativas en la jugabilidad y una nueva temporada de novedades en todos los modos. Con Kylian Mbappé como figura destacada, en esta entrega los jugadores podrán hacer realidad sus sueños en el modo Carrera y llegar más lejos que nunca.",
             "imagen": "https://i.blogs.es/197bee/fifa-22--game-pass-descarga-gratis-en-xbox-one-xbox-series-x-s-y-pc/1366_2000.jpeg",
-            "precio": "40 USD",
+            "precio": 40,
             "tipo": "categorias"
         },
         {
@@ -15,10 +16,11 @@
             "name": "NBA 2k23",
             "nickname": "NBA 2k23",
             "urlName": "NBA2k23",
+            "cantidad": 1,
             "description": "Deportes",
             "tematica": "NBA 2K23 permitirá a los jugadores desarrollar todo su potencial en el mundo del básquet. Podrán combinar a los All-Stars de hoy con leyendas atemporales en MyTEAM o llevar a la NBA en una nueva dirección con MyLEAGUE. Además, deberán dominar la cancha en cada temporada de la NBA o la WNBA.",
             "imagen": "https://wp.clutchpoints.com/wp-content/uploads/2022/08/NBA-2K23-Gameplay-Enhancements-What_s-New-in-NBA-1.jpg",
-            "precio": "38 USD",
+            "precio": 38,
             "tipo": "categorias"
         },
         {
@@ -26,10 +28,11 @@
             "name": "Gta 5",
             "nickname": "Gta 5",
             "urlName": "Gta5",
+            "cantidad": 1,
             "description": "Accion",
             "tematica": "Esta entrega de la saga combina historia y jugabilidad de una forma totalmente nueva y permite a los jugadores asumir un rol dentro del juego como estafador callejero, ex convicto o maníaco para construir su propio imperio criminal en una ciudad en decadencia.",
             "imagen": "http://gamespot.com/a/uploads/original/1179/11799911/2393530-gtavlohan.jpg",
-            "precio": "21 USD",
+            "precio": 21,
             "tipo": "categorias"
         },
         {
@@ -37,10 +40,11 @@
             "name": "Spiderman",
             "nickname": "Spiderman",
             "urlName": "Spiderman",
+            "cantidad": 1,
             "description": "Accion",
             "tematica": "Con un impactante realismo en los ambientes y un experimentado Peter Parker en la lucha contra el crimen, el juego brinda un enfoque completamente nuevo de la historia del hombre araña. Los jugadores podrán disfrutar de la mejor experiencia en combate de improvisación, acrobacias dinámicas e interacciones con el ambiente.",
             "imagen": "https://p4.wallpaperbetter.com/wallpaper/779/848/1009/spider-man-spider-man-ps4-video-game-wallpaper-preview.jpg",
-            "precio": "6 USD",
+            "precio": 6,
             "tipo": "categorias"
         },
         {
@@ -48,10 +52,11 @@
             "name": "Shadow of the Colossus",
             "nickname": "SOTC",
             "urlName": "ShadowOfTheColossus",
+            "cantidad": 1,
             "description": "Aventuras",
             "tematica": "Este remake acerca mundos y criaturas inolvidables con desafíos que ponen a prueba el ingenio, determinación y habilidad. Los jugadores se ponen en la piel de Wander, un joven que explora tierras antiguas para encontrar a los 16 colosos de piedra repartidos por el mundo.",
             "imagen": "https://images.hdqwalls.com/download/shadow-of-the-colossus-4k-s8-1280x720.jpg",
-            "precio": "6 USD",
+            "precio": 6,
             "tipo": "categorias"
         },
         {
@@ -59,10 +64,11 @@
             "name": "God Of War",
             "nickname": "GOW",
             "urlName": "GodOfWar",
+            "cantidad": 1,
             "description": "Aventuras",
             "tematica": "En esta secuela, Kratos y Atreus iniciarán un viaje mítico en busca de respuestasantes de que llegue Ragnarök. Padre e hijo deberán arriesgarlo todo en cada uno de los Nueve Reinos.A lo largo de impresionantes paisajes mitológicos, se enfrentarán a temibles enemigos, desde dioses nórdicos hasta bestias salvajes.",
             "imagen": "https://www.guardadorapido.com/wp-content/uploads/2020/07/God-of-War-noticia.jpg",
-            "precio": "16 USD",
+            "precio": 16,
             "tipo": "categorias"
         },
 
@@ -78,10 +84,11 @@
             "name": "The witcher 3",
             "nickname": "The witcher 3",
             "urlName": "TheWitcher3",
+            "cantidad": 1,
             "description": "PC",
             "tematica": "Esta aventura se ambienta en un universo de fantasía impresionante, lleno de opciones para decidir y enfrentar las consecuencias. Los jugadores darán vida a Geralt de Rivia, un cazador de monstruos que deberá recorrer largas distancias y explorar lugares increíbles para lograr una importante misión.",
             "imagen": "https://i.ytimg.com/vi/odiVAXFaUig/maxresdefault.jpg",
-            "precio": "26 USD",
+            "precio": 26,
             "tipo": "plataformas"
         },
         {
@@ -89,10 +96,11 @@
             "name": "Red Dead Redemption 2",
             "nickname": "RDR 2",
             "urlName": "RedDeadRedemption2",
+            "cantidad": 1,
             "description": "PC",
             "tematica": "Un grupo de vaqueros fuera de la ley recorren un impresionante y salvaje oeste robando y sobreviviendo como cazarrecompensas. Con un nivel de realismo sin precedentes e historias individuales apasionantes, los jugadores deberán lograr que esta pandilla no se divida antes de que termine la aventura.",
             "imagen": "https://www.trueachievements.com/customimages/080449.jpg",
-            "precio": "6 USD",
+            "precio": 6,
             "tipo": "plataformas"
         },
         {
@@ -100,10 +108,11 @@
             "name": "Call Of Duty: Black Ops 4",
             "nickname": "COD BO4",
             "urlName": "COD:BO4",
+            "cantidad": 1,
             "description": "PlayStation",
             "tematica": "En esta aventura bélica, los mapas brindan una variedad impresionante a medida que los jugadores se enfrentan en escenarios únicos con una mecánica de armas que da a cada una la sensación de máxima autenticidad y un manejo inigualable.",
             "imagen": "https://www.xtrafondos.com/descargar.php?id=3151&resolucion=1280x720",
-            "precio": "12 USD",
+            "precio": 12,
             "tipo": "plataformas"
         },
         {
@@ -111,10 +120,11 @@
             "name": "The Last Of Us 2",
             "nickname": "TLOU 2",
             "urlName": "TheLastOfUs2",
+            "cantidad": 1,
             "description": "PlayStation",
             "tematica": "Esta entrega se desarrolla cinco años después de la catástrofe, cuando Ellie y Joel viven en una tranquila comunidad de sobrevivientes de Wynoming. Los jugadores serán testigos de un violento evento que interrumpe esa paz y experimentarán un viaje en busca de justicia y venganza.",
             "imagen": "https://www.guardadorapido.com/wp-content/uploads/2020/06/Portada_Thelastofus2.jpg",
-            "precio": "25 USD",
+            "precio": 25,
             "tipo": "plataformas"
         },
         {
@@ -122,10 +132,11 @@
             "name": "UFC 4",
             "nickname": "UFC 4",
             "urlName": "Ufc4",
+            "cantidad": 1,
             "description": "XBOX",
             "tematica": "Con Tyson Fury y Anthony Joshua como figuras destacadas, esta nueva entrega acerca la posibilidad de crear estilos de pelea únicos. Los jugadores podrán perfeccionar sus habilidades de lucha tanto en entornos callejeros como míticos mientras dejan atrás su lado amateur para convertirse en estrellas de la Ultimate Fighting Championship.",
             "imagen": "https://www.gamesvillage.it/wp-content/uploads/2020/08/UFC-4-1280x720-1.jpg",
-            "precio": "9 USD",
+            "precio": 9,
             "tipo": "plataformas"
         },
         {
@@ -133,10 +144,11 @@
             "name": "Fallout 76",
             "nickname": "Fallout 76",
             "urlName": "Fallout76",
+            "cantidad": 1,
             "description": "XBOX",
             "tematica": "Con una superficie 4 veces mayor al de Fallout 4, esta entrega profundiza en la historia del misterioso Refugio 76. Los jugadores tendrán la oportunidad de liderar alianzas y luchar contra peligrosos rivales para descubrir la verdad que esconden las montañas.",
             "imagen": "https://wallpaper.dog/large/5455005.jpg",
-            "precio": "23 USD",
+            "precio": 23,
             "tipo": "plataformas"
         }
     ]

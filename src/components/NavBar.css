@@ -1,14 +1,17 @@
 .navbar-base{
     background-color: rgb(79, 231, 241);
+    height: 8vh;
+    display: flex;
+    align-items: center;
 }
 .navbarH2{
-    margin: 0;
-    font-size: 1.7vw;
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
-    color: rgb(30, 30, 30);
+    margin: 0 !important;
+    font-size: 1.7vw !important;
+    font-weight: bolder !important;
+    text-transform: uppercase !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    color: rgb(30, 30, 30) !important;
+    text-decoration: none !important;
     
 }
 
@@ -24,16 +27,21 @@
 
 }
 .buttons-navbar{
-    text-decoration: none;
-    padding: 10px;
-    background-color: rgb(30, 30, 30);
-    color: aqua;
-    border-radius: 10px 0px;
-    border: none;
-    cursor: pointer;
-    font-weight: bolder;
+    padding: 10px !important;
+    background-color: rgb(30, 30, 30) !important;
+    color: aqua !important;
+    border-radius: 10px 0px !important;
+    border: none !important;
+    cursor: pointer !important;
+    font-weight: bolder !important;
+    text-decoration: none !important;
 
 }
 .buttons-navbar:hover {
-    background-color: black;
+    background-color: black !important;
+}
+
+.navbar-cart button{
+    border: none;
+    background-color: rgb(79, 231, 241);
 }

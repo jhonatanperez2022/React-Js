@@ -8,6 +8,8 @@ import producto from './producto.json';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import Category from './components/Category';
 
+import { CartContext } from './components/context/CartContext';
+
 
 
 
@@ -17,23 +19,29 @@ function App() {
   const juegosCat = producto.filter((juego)=> juego.tipo === "categorias")
 
   return (
+    <>
     
-    <div className="App">
-      <nav>
-        <NavBar/>
-      </nav>
+    <CartContext>
+      <div className="App">
+        <nav>
+          <NavBar/>
+        </nav>
       
-      <Routes>
-          <Route path="/" element={<ItemListContainer/>} />
-          <Route path="/contactos" element={<Contactos/>} />
-          <Route path="/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
-          <Route path="/plataformas" element={<Category tipo={juegosPlat} titulo={<h1 className="elTitulo"> Plataformas</h1>} />} />
-          <Route path="/categorias" element={<Category tipo={juegosCat} titulo={<h1 className="elTitulo"> Categorias</h1>} />} />
-          <Route path="/categorias/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
-          <Route path="/plataformas/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
-          <Route path="*" element={<h1 className='error404'>404 Not Found</h1>} />
-      </Routes>
-    </div>
+        <Routes>
+            <Route path="/" element={<ItemListContainer/>} />
+            <Route path="/contactos" element={<Contactos/>} />
+            <Route path="/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
+            <Route path="/plataformas" element={<Category tipo={juegosPlat} titulo={<h1 className="elTitulo"> Plataformas</h1>} />} />
+            <Route path="/categorias" element={<Category tipo={juegosCat} titulo={<h1 className="elTitulo"> Categorias</h1>} />} />
+            <Route path="/categorias/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
+            <Route path="/plataformas/comprar/:urlName" element={<ItemDetailContainer producto={producto} /> } />
+            <Route path="*" element={<h1 className='error404'>404 Not Found</h1>} />
+        </Routes>
+      </div>
+    </CartContext>
+
+    </>
+    
     
   );
 }

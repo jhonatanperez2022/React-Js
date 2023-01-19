@@ -36,6 +36,8 @@
   letter-spacing: 3px;
 }
 
+
+
 /*Item list container*/
 
 .div_ilc{
@@ -45,6 +47,7 @@
   padding: 50px;
   background-color: #2f2f30;
   border-radius: 40px 0px;
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,20 +275,20 @@
   color: rgb(64, 192, 201);
 }
 .divJuego-detallado a{
-  background-color: rgb(30, 30, 30);
-  color: rgb(79, 231, 241);
-  padding: 12px;
-  margin-bottom: 15px;
-  cursor: pointer;
-  border-radius: 10px 0;
-  font-weight: bolder;
-  width: 60%;
-  text-decoration: none;
+  background-color: rgb(30, 30, 30) !important;
+  color: rgb(79, 231, 241) !important;
+  padding: 12px !important;
+  margin-bottom: 15px !important;
+  cursor: pointer !important;
+  border-radius: 10px 0 !important;
+  font-weight: bolder !important;
+  width: 60% !important;
+  text-decoration: none !important;
 }
 .divJuego-detallado a:hover{
-  background-color: rgb(79, 231, 241);
-  color: black;
-  transition: .5s;
+  background-color: rgb(79, 231, 241) !important;
+  color: black !important;
+  transition: .5s !important;
 }
 
 .juegoTematica{
@@ -336,7 +339,8 @@
 .divJuego-tipo img{
   width: 100%;
 }
-.divJuego-tipo a{
+
+.divJuego-tipoA {
   background-color: rgb(30, 30, 30);
   color: rgb(79, 231, 241);
   padding: 5px;
@@ -346,6 +350,10 @@
   font-weight: bolder;
   width: 60%;
   text-decoration: none;
+}
+.divJuego-tipoA:hover{
+  background-color: rgb(79, 231, 241);
+  color: black;
 }
 
 .divJuego-tipo h4{
@@ -358,6 +366,13 @@
   margin: 7px auto;
   color: rgb(64, 192, 201);
 }
+.navbarh2{
+  text-decoration: none !important;
+}
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
