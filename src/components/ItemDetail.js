@@ -4,18 +4,18 @@ import productos from "../producto.json"
 
 
 const ItemDetail = ({producto}) => {
-  const { count, setCount, cart, setCart } = UseCartContext()
+  const { cart, setCart, count, setCount } = UseCartContext()
   
 
   const addProduct = (prodId) => {
     setCount(count + 1);
+
     const findGame = productos.find(juego => juego.id === prodId)
-    setCart ([...cart, findGame])
-    const existInCart = cart.find(juego => juego.id === findGame.id);
-    existInCart
-    ? setCart([...cart, existInCart.cantidad++])
-    : setCart ([...cart, findGame])
+    const existInTheCart = cart.find(game => game.id === findGame.id)
+    existInTheCart ? setCart([...cart, ...findGame.cantidad++]) : setCart([...cart, findGame])
     console.log(cart)
+    
+    
 };
 
   

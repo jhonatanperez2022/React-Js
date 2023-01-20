@@ -2,7 +2,7 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { UseCartContext } from './context/CartContext';
-import JuegosCart from './JuegosCart';
+
 
 function ModalCart({ show, handleClose }) {
   const { cart } = UseCartContext();
@@ -16,11 +16,17 @@ function ModalCart({ show, handleClose }) {
         </Modal.Header>
         <Modal.Body>
         
-        {cart.map((juego) => {
-          return (
-            <JuegosCart key={juego.id} game={juego} />
-          )
-        })}
+        {cart.map(juego => (
+          <div key={juego.id} className='divCartJuegos'>
+              <img src={juego.imagen} alt={juego.name} className="cartImg"/>
+              <div className='divCartJuegos-Text'>
+                  <h5>{juego.name}</h5>
+                  <p>Cantidad: {juego.cantidad}</p>
+                  <p>Suma: {juego.cantidad * juego.precio} USD</p>
+              </div>
+          </div>
+        ))}
+        
           
         </Modal.Body>
         <Modal.Footer>

@@ -372,6 +372,21 @@
 
 
 
+/*carrito*/
+
+.divCartJuegos {
+  display: flex;
+  margin: 20px auto;
+}
+.divCartJuegos-Text {
+  margin-left: 2vw;
+}
+.divCartJuegos img{
+  width: 150px;
+  height: auto;
+}
+
+
 
 
 @keyframes App-logo-spin {
