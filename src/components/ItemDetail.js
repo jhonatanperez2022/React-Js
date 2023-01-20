@@ -13,6 +13,7 @@ const ItemDetail = ({producto}) => {
     const findGame = productos.find(juego => juego.id === prodId)
     const existInTheCart = cart.find(game => game.id === findGame.id)
     existInTheCart ? setCart([...cart, ...findGame.cantidad++]) : setCart([...cart, findGame])
+    
     console.log(cart)
     
     

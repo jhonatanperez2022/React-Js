@@ -7,6 +7,8 @@ import { UseCartContext } from './context/CartContext';
 function ModalCart({ show, handleClose }) {
   const { cart } = UseCartContext();
 
+  const sumaTotal = cart.reduce((acc,juego) => acc + juego.precio * juego.cantidad ,0)
+
   return (
     <>
 
@@ -30,6 +32,9 @@ function ModalCart({ show, handleClose }) {
           
         </Modal.Body>
         <Modal.Footer>
+          <div className='modal-footer__total'>
+            <p>TOTAL: {sumaTotal} USD</p>
+          </div>
           <Button variant="secondary" onClick={handleClose}>
             Cerrar
           </Button>
