@@ -169,7 +169,9 @@
 
 
 /*seccion contactos*/
-
+.bodyContacto {
+  height: 85vh;
+}
 .seccionContacto {
   width: 65%;
   margin: 3vh auto;
@@ -274,7 +276,7 @@
   font-size: 2vw;
   color: rgb(64, 192, 201);
 }
-.divJuego-detallado a{
+.divJuego-detallado button{
   background-color: rgb(30, 30, 30) !important;
   color: rgb(79, 231, 241) !important;
   padding: 12px !important;
@@ -284,8 +286,9 @@
   font-weight: bolder !important;
   width: 60% !important;
   text-decoration: none !important;
+  border: none;
 }
-.divJuego-detallado a:hover{
+.divJuego-detallado button:hover{
   background-color: rgb(79, 231, 241) !important;
   color: black !important;
   transition: .5s !important;
@@ -316,6 +319,7 @@
 
 .contenedorTipoJuegos{
   width: 70%;
+  height: 70vh;
   margin: 10px auto;
   display: flex;
 
@@ -323,6 +327,7 @@
 
 .divJuego-tipo{
   width: 15%;
+  height: 23vh;
   margin: 5vw auto;
   border-radius: 15px;
   background-color: rgb(66, 66, 66);
@@ -375,15 +380,23 @@
 /*carrito modal*/
 
 .divCartJuegos {
-  display: flex;
+  display: grid;
+  grid-template-columns: 3fr 6fr 1fr;
   margin: 20px auto;
 }
 .divCartJuegos-Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-left: 2vw;
 }
-.divCartJuegos img{
+.divCartJuegos-Img{
+  display: flex;
+  align-items: center;
+}
+.divCartJuegos-Img img{
   width: 150px;
-  height: auto;
+  height: 100px;
 }
 
 /*carrito modal footer*/
@@ -400,11 +413,43 @@
   font-weight: bolder;
   padding: 0.375rem 0.75rem;
 }
+
+.modal-footer__finalizar{
+  align-items: center;
+  background-color: rgb(214, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+}
+.modal-footer__finalizar:hover {
+  background-color: red;
+}
+.modal-footer__finalizar p{
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  padding: 0.375rem 0.75rem;
+}
+.modal-footer__vaciar {
+  padding: 5px;
+  background-color: rgb(214, 0, 0);
+  color: white;
+  font-weight: bold;
+  text-decoration: none !important;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.modal-footer__vaciar:hover {
+  background-color: red;
+  color: white !important;
+  
+}
+
 .btn-primary {
   background-color: rgb(79, 231, 241) !important;
   color: black !important;
   border: none !important;
-  font-weight: 600 !important;
+  font-weight: bold !important;
 }
 .btn-primary:hover {
   background-color: aqua !important;
@@ -419,7 +464,76 @@
   background-color: aqua !important;
 }
 
+/*Div icono para eliminar*/
 
+.divCartJuegos-Delete{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+}
+.divCartJuegos-Delete button {
+  border: none;
+  background-color: white;
+}
+
+.deleteFromCart{
+  color: red;
+}
+
+/*Compra final - devolucion*/
+.compraFinal {
+  height: 85vh;
+}
+.compraFinal h1 {
+  margin: 5vh auto;
+  color: aqua;
+  font-weight: bolder;
+}
+.compraFinal h3 {
+  color: aqua;
+  font-weight: bold;
+}
+.compraFinal-Span {
+  color: white;
+}
+.compraFinal-Table {
+  width: 60%;
+  margin: 20px auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.compraFinal-Table table {
+  width: 40%;
+}
+.compraFinal-Table th{
+  color: aqua;
+  font-weight: bold;
+}
+.compraFinal-Table tr {
+  margin: 5px;
+}
+
+/*Footer*/
+.footerDiv {
+    background-color: rgb(79, 231, 241);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+.footerIcons {
+  width: 50%;
+  margin: auto;
+}
+.footerIcons a{
+  margin: 0 3vw;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(30, 30, 30);
+}
 
 
 @keyframes App-logo-spin {

@@ -5,15 +5,13 @@ const Category = ({ tipo, titulo }) => {
 
   return(
     <>
-      <h1>{titulo}</h1>
+      {titulo}
       <div className='contenedorTipoJuegos'>
-      {tipo.map((juego) => (
-        
-        <Items key={juego.id} juego={juego} />
-        
-      ))}
+            {tipo.map((juego) => (
+                <Items key={juego.id} juego={juego} />
+            ))}
       </div>
-      </>
+    </>
     )
 }
 

@@ -2,45 +2,64 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { UseCartContext } from './context/CartContext';
+import { RiDeleteBin5Fill } from "react-icons/ri"
+import { Link } from 'react-router-dom';
+
 
 
 function ModalCart({ show, handleClose }) {
-  const { cart } = UseCartContext();
-
-  const sumaTotal = cart.reduce((acc,juego) => acc + juego.precio * juego.cantidad ,0)
-
+  
+  const { cart, deleteGame, setCount, vaciarCart, sumaTotal } = UseCartContext();
+  
+  
   return (
     <>
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Tu Carrito</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-        
         {cart.map(juego => (
           <div key={juego.id} className='divCartJuegos'>
-              <img src={juego.imagen} alt={juego.name} className="cartImg"/>
+              <div className='divCartJuegos-Img'>
+                  <img src={juego.imagen} alt={juego.name} className="cartImg"/>
+              </div>
               <div className='divCartJuegos-Text'>
                   <h5>{juego.name}</h5>
                   <p>Cantidad: {juego.cantidad}</p>
                   <p>Suma: {juego.cantidad * juego.precio} USD</p>
               </div>
+              <div className='divCartJuegos-Delete'>
+                  <button onClick={() => deleteGame(juego.id)}> <RiDeleteBin5Fill className="deleteFromCart" alt="eliminar juego"/> </button>
+              </div>
           </div>
         ))}
-        
+          
           
         </Modal.Body>
+        
         <Modal.Footer>
           <div className='modal-footer__total'>
             <p>TOTAL: {sumaTotal} USD</p>
           </div>
+          
+          <button className='modal-footer__vaciar' onClick={vaciarCart}>
+            Vaciar
+          </button>
+          
           <Button variant="secondary" onClick={handleClose}>
             Cerrar
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Finalizar compra
-          </Button>
+          
+          <Link to={`su-compra`} className='modal-footer__finalizar' onClick={() => {
+            handleClose()
+            setCount(0)
+          }}>
+            <p>
+              Finalizar Compra
+            </p>
+          </Link>
+            
         </Modal.Footer>
       </Modal>
     </>

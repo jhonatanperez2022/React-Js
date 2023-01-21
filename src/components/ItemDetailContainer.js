@@ -6,23 +6,22 @@ import ItemDetail from './ItemDetail';
 
 
 const ItemDetailContainer = ({ producto }) => { 
-
-
+  
   const { urlName } = useParams();
   const [ juegos, setJuegos ] = useState({})
-
   
-
+  //Obteniendo la Id del juego para detallarlo
+  
   const getGameByName = () => {
     const juegoObtenido = producto.find((juego) => juego.urlName === urlName)
-
+  
   return juegoObtenido
   }
-
+  
   useEffect (() => {
     setJuegos(getGameByName())
   }, [urlName])
-
+  
   return (
     <>
         <ItemDetail producto={juegos} />     
