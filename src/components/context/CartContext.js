@@ -30,6 +30,7 @@ const addProduct = (prodId) => {
         setCart([...cart, findGame])
         
     }
+    
 };
 
 
@@ -52,7 +53,6 @@ const deleteGame = (id) => {
         setCount(count - 1)
         
     }
-    
 }
 
 

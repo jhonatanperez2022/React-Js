@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 function ModalCart({ show, handleClose }) {
   
-  const { cart, deleteGame, setCount, vaciarCart, sumaTotal } = UseCartContext();
+  const { cart, deleteGame, vaciarCart, sumaTotal } = UseCartContext();
   
   
   return (
@@ -53,10 +53,9 @@ function ModalCart({ show, handleClose }) {
           
           <Link to={`su-compra`} className='modal-footer__finalizar' onClick={() => {
             handleClose()
-            setCount(0)
           }}>
             <p>
-              Finalizar Compra
+              Detalle del carrito
             </p>
           </Link>
             

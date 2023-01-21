@@ -517,6 +517,47 @@
   margin: 5px;
 }
 
+/*form*/
+.tableForm {
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tableForm h2{
+  margin: 70px auto 50px;
+  font-weight: bold;
+  font-size: 2vw;
+  color: aqua;
+}
+
+.tableForm label {
+  color: aqua;
+}
+.tableForm input {
+  width: 20vw;
+  margin: 10px 30px 0px;
+  border-radius: 10px 0px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+.tableForm button {
+  margin: 3vh 0;
+  padding: 10px;
+  width: 10vw;
+  border: none;
+  background-color: rgb(214, 0, 0);
+  color: rgb(230, 230, 230);
+  font-weight: bolder;
+
+}
+.tableForm button:hover {
+  background-color: red;
+}
+
 /*Footer*/
 .footerDiv {
     background-color: rgb(79, 231, 241);
