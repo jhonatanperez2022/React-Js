@@ -3,9 +3,10 @@ import { UseCartContext } from './context/CartContext';
 
 
 
-const ItemDetail = ({producto}) => {
-  const { addProduct } = UseCartContext()
+const ItemDetail = ({producto}) => { 
+  const { addProduct } = UseCartContext(
   
+  )
   return (
     <>
     <div className='divJuego-base'>

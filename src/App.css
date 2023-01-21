@@ -526,6 +526,13 @@
   justify-content: center;
   align-items: center;
 }
+.tableForm-Div {
+  display: flex;
+}
+.tableForm-Datos {
+  display: flex;
+  flex-direction: column;
+}
 .tableForm h2{
   margin: 70px auto 50px;
   font-weight: bold;
@@ -537,8 +544,8 @@
   color: aqua;
 }
 .tableForm input {
-  width: 20vw;
-  margin: 10px 30px 0px;
+  width: 22vw;
+  margin: 20px auto;
   border-radius: 10px 0px;
   border: none;
   background-color: white;

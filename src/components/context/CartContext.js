@@ -44,14 +44,12 @@ const deleteGame = (id) => {
     if(gameInCartExist.cantidad === 1){
         setCart(cart.filter(juego => juego.id !== gameInCartExist.id))
         setCount(count - 1)
-        
     }
     else{
         const deleteGameAux = {...gameInCart, cantidad: gameInCartExist.cantidad-1}
         const newCartAux = cart.filter(game => game.id !== gameInCart.id)
         setCart([...newCartAux, deleteGameAux])
         setCount(count - 1)
-        
     }
 }
 
