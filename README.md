@@ -8,13 +8,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Bibliotecas implementadas
 
-React-Bootstrap - Para desplegar el modal al presionar en el carrito.
+● React-Bootstrap - Para desplegar el modal al presionar en el carrito.
 
-React-icons - Para los íconos.
+● React-icons - Para los íconos.
 
-React-router-dom - Para el ruteo de la aplicación.
+● React-router-dom - Para el ruteo de la aplicación.
 
-Sweetalert2 - Para la alerta al finalizar la compra.
+● Sweetalert2 - Para la alerta al finalizar la compra.
 
 ## Link al video de presentacion
 
